@@ -1,0 +1,13 @@
+<div style="background-color: #ccc;padding-bottom:50px">
+  <div *ngIf="user">
+    <p>
+      user-detail works!
+    </p>
+    <h2>{{ user.userId }} -- {{ user.name }}</h2>
+  </div>
+  <div *ngIf="errorMessage">
+    <p>
+        <b>ERROR : </b> <br/> {{ errorMessage }}
+    </p>
+  </div>
+</div>

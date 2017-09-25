@@ -1,0 +1,22 @@
+<div *ngIf="users.length > 0" style="background-color: #bbb;padding-bottom:50px">
+  <p>
+    users-list works!
+  </p>
+
+  <!-- Iteration list -->
+  <ul>
+    <li *ngFor="let user of users">
+      <a [routerLink]="[{outlets: { subsection: [user.userId]}}]">
+        {{ user.userId }} --  {{ user.name }} 
+    </a>
+    </li>
+  </ul>
+</div>
+<div *ngIf="errorMessage">
+  <p>
+    <b>ERROR : </b> <br/> {{ errorMessage }}
+  </p>
+</div>
+
+<router-outlet name="subsection"></router-outlet>
+<!-- Routed subsection views go here -->
