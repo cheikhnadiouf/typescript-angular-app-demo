@@ -3,7 +3,7 @@ import { HttpClient, HttpParams, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import 'rxjs/add/operator/catch';
-import { UserModel } from "./users.model";
+import { UserModel } from './users.model';
 
 
 @Injectable()

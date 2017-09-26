@@ -46,14 +46,14 @@ export class AppComponent {
     // event.preventDefault();
   }
 
-  backLink() {
+  backLink(event) {
     this.setPreviousPath();
     this.location.back();    
     // to disable reload page with href empty
     event.preventDefault();
   }
   
-  forwardLink() {
+  forwardLink(event) {
     this.setPreviousPath();
     this.location.forward();
     // to disable reload page with href empty

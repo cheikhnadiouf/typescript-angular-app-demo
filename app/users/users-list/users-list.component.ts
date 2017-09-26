@@ -2,8 +2,8 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HttpErrorResponse } from '@angular/common/http';
 
-import { UsersManager } from "../users.service";
-import { UserModel } from "../users.model";
+import { UsersManager } from '../users.service';
+import { UserModel } from '../users.model';
 
 @Component({
   selector: 'ng-users-list',
