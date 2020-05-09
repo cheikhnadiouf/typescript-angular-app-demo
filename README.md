@@ -1,3 +1,5 @@
+Alert: Sadly, I don't have time to maintain this.
+
 Typescript Angular APP DEMO
 ========================
 Typescript angular 4 demo application, skeleton for frontend resources management (CRUD-like operations with json mockups for api requests )
